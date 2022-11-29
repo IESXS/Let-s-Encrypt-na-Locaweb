@@ -16,3 +16,8 @@ Ao invés de ter que utilizar diversos comandos conforme o [guia da Locaweb](htt
 3. Informe o domínio.
 
 O certificado será gerado desta forma, será necessário copiar as linhas em destaque e [abrir um ticket](https://ajuda.locaweb.com.br/wiki/como-criar-e-acompanhar-um-chamado-central-do-cliente/) para o suporte da Locaweb para que possam finalizar a instalação.
+
+
+# Funciona em todas as hospedagens? 
+
+Apenas em hospedagens Linux. Para Hospedagens Windows eu recomendo utilizar o [ZeroSSL](https://zerossl.com)
