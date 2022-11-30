@@ -2,14 +2,14 @@
 # Lets encrypt installer
 #Obtém o usuário FTP
 ftpuser=$(pwd | rev | cut -d '/' -f 1 | rev)
-#Verifica se pasta .acme e acme já existem e as movem
+#Verifica se pasta .acme e acme já existem e os removem
 acme1='acme.sh/'
 acme2='.acme.sh/'
 if [ -d "$acme1" ]; then
-mv acme.sh/ acme_old
+rm -rf acme.sh/ 
 fi
 if [ -d "$acme2" ]; then
-mv .acme.sh/ .acme_old
+rm -rf .acme.sh/
 fi
 clear
 echo "Insira o dominio: "
