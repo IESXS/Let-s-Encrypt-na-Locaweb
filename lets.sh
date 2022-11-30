@@ -1,7 +1,7 @@
 #!/bin/bash
 # Lets encrypt installer
 ftpuser=$(pwd | rev | cut -d '/' -f 1 | rev)
-acme1='/acme.sh/'
+acme1='acme.sh/'
 acme2='.acme.sh/'
 if [ -d "$acme1" ]; then
 mv acme.sh/ acme_old
