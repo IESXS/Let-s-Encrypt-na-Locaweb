@@ -1,6 +1,8 @@
 #!/bin/bash
 # Lets encrypt installer
+#Obtém o usuário FTP
 ftpuser=$(pwd | rev | cut -d '/' -f 1 | rev)
+#Verifica se pasta .acme e acme já existem e as movem
 acme1='acme.sh/'
 acme2='.acme.sh/'
 if [ -d "$acme1" ]; then
