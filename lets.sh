@@ -1,6 +1,14 @@
 #!/bin/bash
 # Lets encrypt installer
 ftpuser=$(pwd | rev | cut -d '/' -f 1 | rev)
+acme1='/acme/'
+acme2='.acme/'
+if [ -d "$acme1" ]; then
+mv acme/ acme_old
+fi
+if [ -d "$acme2" ]; then
+mv .acme/ .acme_old
+fi
 clear
 echo "Insira o dominio: "
 read dominio
