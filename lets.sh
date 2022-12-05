@@ -25,7 +25,7 @@ then
 else 
 	git clone https://github.com/Neilpang/acme.sh.git
 	sh acme.sh/acme.sh --set-default-ca --server letsencrypt
-	sh acme.sh/acme.sh --issue -d $dominio -d -w /home/$ftpuser/public_html --server https://acme-v02.api.letsencrypt.org/directory
+	sh acme.sh/acme.sh --issue -d $dominio -d /home/$ftpuser/public_html --server https://acme-v02.api.letsencrypt.org/directory
 fi
 echo ""
 echo "Link para validação:"
