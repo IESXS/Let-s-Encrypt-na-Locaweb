@@ -12,7 +12,7 @@ Ao invés de ter que utilizar diversos comandos conforme o [guia da Locaweb](htt
 
 2. Execute este comando: 
 
-`curl -O https://raw.githubusercontent.com/lucasfernandesxyz/Let-s-Encrypt-na-Locaweb/testing/lets.sh`
+`curl -O https://raw.githubusercontent.com/lucasfernandesxyz/Let-s-Encrypt-na-Locaweb/main/lets.sh`
 
 
 3. Informe o domínio.
